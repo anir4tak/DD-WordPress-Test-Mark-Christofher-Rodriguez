@@ -1,0 +1,45 @@
+/* 
+Theme Name: Hello Elementor Child 
+Template: hello-elementor 
+*/
+
+.single-deer-test {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.post-navigation {
+    text-align: center;
+
+}
+.post-navigation a{
+   color: #031a39;
+}
+.deer-test-application-link a {
+    color: #56ddfe;
+}
+.deer-test-application-link a:hover {
+    color: #031a39;
+}
+.deer-test-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.deer-test-image {
+    width: 50%;
+}
+.deer-test-content{
+    width: 50%;
+}
+.deer-test-description {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deer-test-meta {
+    margin-bottom: 20px;
+}
+
