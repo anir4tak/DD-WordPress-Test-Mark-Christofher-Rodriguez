@@ -5,7 +5,6 @@ Template Name: Deer Tests
 
 get_header();
 
-// Custom query to fetch Deer Tests posts
 $args = array(
     'post_type' => 'deer_tests',
     'post_status' => 'publish',

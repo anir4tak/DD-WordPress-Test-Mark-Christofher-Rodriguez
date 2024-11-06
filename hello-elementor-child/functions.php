@@ -9,9 +9,9 @@ function create_deer_tests_post_type() {
     register_post_type('deer_tests', array(
         'public' => true,
         'label'  => 'Deer Tests',
-        'has_archive' => true,  // Enable this if you want an archive page for Deer Tests
-        'rewrite' => array('slug' => 'deer-tests'), // Custom URL slug
-        'supports' => array('title', 'editor', 'thumbnail') // Add fields you need
+        'has_archive' => true, 
+        'rewrite' => array('slug' => 'deer-tests'), 
+        'supports' => array('title', 'editor', 'thumbnail')
     ));
 }
 add_action('init', 'create_deer_tests_post_type');
